@@ -97,4 +97,3 @@ void ini_matrix()
 	forward(false);
 
 }
-

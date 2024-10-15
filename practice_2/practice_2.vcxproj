@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="border.cpp" />
+    <ClCompile Include="brute_force.cpp" />
     <ClCompile Include="compare.cpp" />
     <ClCompile Include="fizzbuzz.cpp" />
     <ClCompile Include="MAIN.cpp" />
@@ -136,6 +138,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="border.h" />
+    <ClInclude Include="brute_force.h" />
     <ClInclude Include="compare.h" />
     <ClInclude Include="fizzbuzz.h" />
     <ClInclude Include="MAIN.h" />

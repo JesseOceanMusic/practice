@@ -12,7 +12,7 @@ int main()
 		std::cout << "3 : compare" << std::endl;
 		std::cout << "4 : sum" << std::endl;
 		std::cout << "5 : matrix" << std::endl;
-
+		std::cout << "6 : brute_force" << std::endl;
 		
 		std::cout << "\nChoose number: ";
 		std::cin >> input_number;
@@ -37,6 +37,13 @@ int main()
 
 			case 5:
 				ini_matrix();
+				break;
+			
+			case 6:
+				ini_brute_force();
+				break;
+
+			default:
 				break;
 		}
 	}
